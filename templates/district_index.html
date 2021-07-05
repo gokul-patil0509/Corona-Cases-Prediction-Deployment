@@ -1,0 +1,283 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title> Novel CoronaVirus Predictor </title>
+        <link rel="shortcut icon" href="{% static '/images/main_img/ind-favicon.ico' %}">
+       
+        <!-- Font Family -->
+          <script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+          <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+        <!-- CSS -->
+          <link rel="stylesheet" type="text/css" href="{% static '/css/CSD_styles.css' %}">
+    </head>
+
+    <body>
+
+        <!-- header -->
+       <header>
+         <nav>
+                      <div class="logo"> 
+                      <h1 class=" "><span class='heading_first'> Novel </span><span class="heading_second"> CoronaVirus </span><span class="heading_third"> Predictor </span> </h1>
+                      </div>
+                      <div class="menu">
+                            <a href="coronavirus/" target="_blank"> Check_Test </a>
+                            <a href="https://www.covid19india.org/" target="_blank"> Dashbroad </a>
+                            <a href="" target="_blank"> About_Us </a>
+                     </div>
+         </nav>
+       </header>
+
+       <!-- Website Title -->
+    	<div class="container">
+            <h2 class='container-heading'><span class='first_heading'>Novel CoronaVirus Outbreak Prediction For </span><span class="second_heading"> DISTRICT'S </span></h2>
+            <div class='header-description'>
+    		 <p><span class='f_description'> I Protect You...!! </span></p>
+                 <p><span class='s_description'> You Protect Me...!!! </span></p> 
+            </div>
+    	</div>
+
+
+        <!-- Prediction Area -->
+        <div class="prediction-area">
+
+            <!-- COVID Banner - 1 -->
+            <div class='covid-banner-left'>
+
+                <div class="slider-frame">
+                    <div class="slide-images-up">
+
+                        <!-- Image-1 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{% static '/images/main_img/1.jpg' %}" alt="Covid Prevention-1">
+                        </div>
+                        <!-- Image-2 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{% static '/images/main_img/2.jpg' %}" alt="Covid Prevention-2">
+                        </div>
+                        <!-- Image-3 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{% static '/images/main_img/3.jpg' %}" alt="Covid Prevention-3">
+                        </div>
+                        <!-- Image-4 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{% static '/images/main_img/4.jpg' %}" alt="Covid Prevention-4">
+                        </div>
+                        <!-- Image-5 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{% static '/images/main_img/5.jpg' %}" alt="Covid Prevention-5">
+                        </div>
+                        <!-- Image-6 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{% static '/images/main_img/6.jpg' %}" alt="Covid Prevention-6">
+                        </div>
+                        <!-- Image-7 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{% static '/images/main_img/7.jpg' %}" alt="Covid Prevention-7">
+                        </div>
+                        <!-- Image-8 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{% static '/images/main_img/8.jpg' %}" alt="Covid Prevention-8">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Prediction Form -->
+            <div class='div2'>
+                <form action="predict-3/"  method="POST">
+                    <!-- Districtwise Dropdown -->
+                     {% csrf_token %}
+                    <select class="form-input align-center" name="district-wise">
+                        <option value="none">--- Select a City ---</option>
+                        <option value="East Delhi">East Delhi</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Agra">Agra</option>
+                        <option value="South West Delhi">South West Delhi</option>
+                        <option value="Ghaziabad">Ghaziabad</option>
+                        <option value="West Delhi">West Delhi</option>
+                        <option value="Gurugram">Gurugram</option>
+                        <option value="Kargil">Kargil</option>
+                        <option value="Kolkata">Kolkata</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Ratnagiri">Ratnagiri</option>
+                        <option value="Srinagar">Srinagar</option>
+                        <option value="Vadodara">Vadodara</option>
+                        <option value="Jabalpur">Jabalpur</option>
+                        <option value="Leh">Leh</option>
+                        <option value="Kancheepuram">Kancheepuram</option>
+                        <option value="Pathanamthitta">Pathanamthitta</option>
+                        <option value="North Delhi">North Delhi</option>
+                        <option value="Jammu">Jammu</option>
+                        <option value="North East Delhi">North East Delhi</option>
+                        <option value="Chandigarh">Chandigarh</option>
+                        <option value="Raipur">Raipur</option>
+                        <option value="Rajkot">Rajkot</option>
+                        <option value="Surat">Surat</option>
+                        <option value="Visakhapatnam">Visakhapatnam</option>
+                        <option value="North West Delhi">North West Delhi</option>
+                        <option value="Ahmedabad">Ahmedabad</option>
+                        <option value="Bengaluru Urban">Bengaluru Urban</option>
+                        <option value="Kannur">Kannur</option>
+                        <option value="Pune">Pune</option>
+                        <option value="Amritsar">Amritsar</option>
+                        <option value="Ernakulam">Ernakulam</option>
+                        <option value="Varanasi">Varanasi</option>
+                        <option value="Patna">Patna</option>
+                        <option value="Bhopal">Bhopal</option>
+                        <option value="Uttara Kannada">Uttara Kannada</option>
+                        <option value="Jodhpur">Jodhpur</option>
+                        <option value="Palghar">Palghar</option>
+                        <option value="Sangli">Sangli</option>
+                        <option value="Satara">Satara</option>
+                        <option value="Indore">Indore</option>
+                        <option value="Ludhiana">Ludhiana</option>
+                        <option value="Kottayam">Kottayam</option>
+                        <option value="Jaipur">Jaipur</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Nagpur">Nagpur</option>
+                        <option value="Ujjain">Ujjain</option>
+                        <option value="Gwalior">Gwalior</option>
+                        <option value="Aizawl">Aizawl</option>
+                        <option value="North Goa">North Goa</option>
+                        <option value="South Andaman">South Andaman</option>
+                        <option value="Sindhudurg">Sindhudurg</option>
+                        <option value="North and Middle Andaman">North and Middle Andaman</option>
+                        <option value="Gondia">Gondia</option>
+                        <option value="Kolhapur">Kolhapur</option>
+                        <option value="Ajmer">Ajmer</option>
+                        <option value="Lucknow">Lucknow</option>
+                        <option value="New Delhi">New Delhi</option>
+                        <option value="Thiruvananthapuram">Thiruvananthapuram</option>
+                        <option value="Ambala">Ambala</option>
+                        <option value="Jalgaon">Jalgaon</option>
+                        <option value="Buldhana">Buldhana</option>
+                        <option value="Porbandar">Porbandar</option>
+                        <option value="Nashik">Nashik</option>
+                        <option value="Tiruvannamalai">Tiruvannamalai</option>
+                        <option value="Viluppuram">Viluppuram</option>
+                        <option value="Anantapur">Anantapur</option>
+                        <option value="Ranchi">Ranchi</option>
+                        <option value="Kanyakumari">Kanyakumari</option>
+                        <option value="Udaipur">Udaipur</option>
+                        <option value="Ahmednagar">Ahmednagar</option>
+                        <option value="Thane">Thane</option>
+                        <option value="Raigad">Raigad</option>
+                        <option value="Yavatmal">Yavatmal</option>
+                        <option value="Osmanabad">Osmanabad</option>
+                        <option value="Firozabad">Firozabad</option>
+                        <option value="Patiala">Patiala</option>
+                        <option value="Jajpur">Jajpur</option>
+                        <option value="Amravati">Amravati</option>
+                        <option value="Haridwar">Haridwar</option>
+                        <option value="Mirzapur">Mirzapur</option>
+                        <option value="Latur">Latur</option>
+                        <option value="Bengaluru Rural">Bengaluru Rural</option>
+                        <option value="Nagaur">Nagaur</option>
+                        <option value="Parbhani">Parbhani</option>
+                        <option value="Aurangabad">Aurangabad</option>
+                        <option value="Dehradun">Dehradun</option>
+                        <option value="Malappuram">Malappuram</option>
+                        <option value="South Delhi">South Delhi</option>
+                        <option value="Jalna">Jalna</option>
+                        <option value="Kota">Kota</option>
+                        <option value="Mathura">Mathura</option>
+                        <option value="Rampur">Rampur</option>
+                        <option value="Pulwama">Pulwama</option>
+                        <option value="Akola">Akola</option>
+                        <option value="Khandwa">Khandwa</option>
+                        <option value="Dhar">Dhar</option>
+                        <option value="Beed">Beed</option>
+                        <option value="Sundargarh">Sundargarh</option>
+                        <option value="Vijayapura">Vijayapura</option>
+                        <option value="Kurukshetra">Kurukshetra</option>
+                        <option value="Solapur">Solapur</option>
+                        <option value="Dhule">Dhule</option>
+                        <option value="Chandrapur">Chandrapur</option>
+                        <option value="Gonda">Gonda</option>
+                        
+                        
+                    </select><br>
+                    <!-- Outbreak Dropdown -->
+                     {% csrf_token %}
+                    <select class="form-input align-center" name="current-status">
+                        <option value="none">--- Select a Outbreak ---</option>
+                        <option value="Confiremed">Active</option>
+                        <option value="Recovered">Recovered</option>
+                        <option value="Deceased">Deaths</option>
+                    </select><br>
+                    {% csrf_token %}
+                    <input class="form-input" type="text" name="day" placeholder="Upcoming Prediction Day e.g. 3"><br>
+                    <input class="form-input" type="text" name="month" placeholder="Upcoming Prediction Month e.g. 4"><br>
+                    <input class="form-input" type="text" name="year" placeholder="Upcoming Prediction Year e.g. 2021"><br>
+                    
+			<input type="submit" class="myButton" value="Predict No. Of Cases">
+        	</form>
+            </div>
+
+            <!-- COVID Banner - 2 -->
+            <div class='covid-banner-right'>
+
+                <div class="slider-frame">
+                    <div class="slide-images-down">
+
+                        <!-- Image-1 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{% static '/images/main_img/1.jpg' %}" alt="Covid Prevention-1">
+                        </div>
+                        <!-- Image-2 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{% static '/images/main_img/2.jpg' %}" alt="Covid Prevention-2">
+                        </div>
+                        <!-- Image-3 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{% static '/images/main_img/3.jpg' %}" alt="Covid Prevention-3">
+                        </div>
+                        <!-- Image-4 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{% static '/images/main_img/4.jpg' %}" alt="Covid Prevention-4">
+                        </div>
+                        <!-- Image-5 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{%static '/images/main_img/5.jpg' %}" alt="Covid Prevention-5">
+                        </div>
+                        <!-- Image-6 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{% static '/images/main_img/7.jpg' %}" alt="Covid Prevention-7">
+                        </div>
+                        <!-- Image-7 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{% static '/images/main_img/6.jpg' %}" alt="Covid Prevention-6">
+                        </div>
+                        <!-- Image-8 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{% static '/images/main_img/8.jpg' %}" alt="Covid Prevention-8">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Footer -->
+       <div class="footer">
+         <div class="contact"> 
+               <a target="_blank" href="https://www.linkedin.com/in/gokul-patil-0a6a96189"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
+               <a target="_blank" href="https://github.com/gokul-patil0509/Corona-Cases-Prediction-Deployment"><i class="fab fa-github fa-lg contact-icon"></i></a>
+               <a target="_blank" href="https://www.instagram.com/gokul_h_patil/"><i class="fab fa-instagram fa-lg contact-icon"></i></a>
+               <a target="_blank" href="https://twitter.com/imgokulpatil"><i class="fab fa-twitter fa-lg contact-icon"></i></a>
+         </div>
+         <div class='description'>
+    		  <p>A Machine Learning Web App, Built with Django, Deployed using Heroku.</p>
+    	 </div>
+           <p class='footer-description'>Made with ❤️ by Gokul Patil.</p>
+      </div>
+
+    </body>
+</html>
