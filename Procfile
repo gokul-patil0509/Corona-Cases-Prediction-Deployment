@@ -1,0 +1,1 @@
+web: gunicorn Novel_CoronaVirus_Prediction.wsgi --log-file -
