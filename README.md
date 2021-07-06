@@ -40,3 +40,17 @@ _**----- FOR STATE -----**_<br />
 • Results Page For State
 
 ![Heroku-Error](readme_resources/State_results.png)
+
+_**----- FOR DISTRICT -----**_<br />
+• Home Page For District
+
+![Heroku-Error](readme_resources/District_home.png)
+
+• Results Page For District
+
+![Heroku-Error](readme_resources/District_results.png)
+
+_**----- FOR TEST CORONA VIRUS -----**_<br />
+
+![GIF](readme_resources/Test_cv.gif)
+ 
