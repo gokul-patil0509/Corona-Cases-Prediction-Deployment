@@ -1,0 +1,160 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title> Novel CoronaVirus Predictor </title>
+        <link rel="shortcut icon" href="{% static '/images/main_img/ind-favicon.ico' %}">
+       
+        <!-- Font Family -->
+          <script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+          <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+          <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"  rel="stylesheet">
+
+        <!-- CSS -->
+          <link rel="stylesheet" type="text/css" href="{% static '/css/C_S_D_styles.css' %}">
+    </head>
+
+    <body>
+
+        <!-- header -->
+       <header>
+         <nav>
+                      <div class="logo"> 
+                      <h1 class=" "><span class='heading_first'> Novel </span><span class="heading_second"> CoronaVirus </span><span class="heading_third"> Predictor </span> </h1>
+                      </div>
+                      <div class="menu">
+                            <a href="coronavirus/" target=""> Check_Test </a>
+                            <a href="https://www.covid19india.org/" target="_blank"> Dashbroad </a>
+                     </div>
+         </nav>
+       </header>
+
+       <!-- Website Title -->
+    	<div class="container">
+            <h2 class='container-heading'><span class='first_heading'>Novel CoronaVirus Outbreak Prediction For </span><span class="second_heading"> STATE'S </span></h2>
+            <div class='header-description'>
+    		 <p><span class='f_description'> I Protect You...!! </span></p>
+                 <p><span class='s_description'> You Protect Me...!!! </span></p> 
+            </div>
+    	</div>
+
+
+        <!-- Prediction Area -->
+        <div class="prediction-area">
+
+            <!-- COVID Banner - 1 -->
+            <div class='covid-banner-left'>
+
+                <div class="slider-frame">
+                    <div class="slide-images-up">
+
+                        <!-- Image-1 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{% static '/images/main_img/1.jpg' %}" alt="Covid Prevention-1">
+                        </div>
+                        <!-- Image-2 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{% static '/images/main_img/2.jpg' %}" alt="Covid Prevention-2">
+                        </div>
+                        <!-- Image-3 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{% static '/images/main_img/3.jpg' %}" alt="Covid Prevention-3">
+                        </div>
+                        <!-- Image-4 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{% static '/images/main_img/4.jpg' %}" alt="Covid Prevention-4">
+                        </div>
+                        <!-- Image-5 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{% static '/images/main_img/5.jpg' %}" alt="Covid Prevention-5">
+                        </div>
+                        <!-- Image-6 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{% static '/images/main_img/6.jpg' %}" alt="Covid Prevention-6">
+                        </div>
+                        <!-- Image-7 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{% static '/images/main_img/7.jpg' %}" alt="Covid Prevention-7">
+                        </div>
+                        <!-- Image-8 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{% static '/images/main_img/8.jpg' %}" alt="Covid Prevention-8">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+                        <!-- Result -->
+			<div class="results">
+                                 <p  class='result-p'> The Final Predicted Upcoming CoronaVirus Cases </p>
+                                 <p><span> " {{ state_prediction }} " </span></p>    
+			</div>
+
+            <!-- COVID Banner - 2 -->
+            <div class='covid-banner-right'>
+
+                <div class="slider-frame">
+                    <div class="slide-images-down">
+
+                        <!-- Image-1 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{% static '/images/main_img/1.jpg' %}" alt="Covid Prevention-1">
+                        </div>
+                        <!-- Image-2 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{% static '/images/main_img/2.jpg' %}" alt="Covid Prevention-2">
+                        </div>
+                        <!-- Image-3 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{% static '/images/main_img/3.jpg' %}" alt="Covid Prevention-3">
+                        </div>
+                        <!-- Image-4 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{% static '/images/main_img/4.jpg' %}" alt="Covid Prevention-4">
+                        </div>
+                        <!-- Image-5 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{%static '/images/main_img/5.jpg' %}" alt="Covid Prevention-5">
+                        </div>
+                        <!-- Image-6 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{% static '/images/main_img/7.jpg' %}" alt="Covid Prevention-7">
+                        </div>
+                        <!-- Image-7 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{% static '/images/main_img/6.jpg' %}" alt="Covid Prevention-6">
+                        </div>
+                        <!-- Image-8 -->
+                        <div class="image-container">
+                            <img class="image-width" src="{% static '/images/main_img/8.jpg' %}" alt="Covid Prevention-8">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="center">
+                                 <a class="back" href="/app">&laquo; back to home  
+                                 </a>
+        </div>
+
+        <!-- Footer -->
+       <div class="footer">
+         <div class="contact"> 
+               <a target="_blank" href="https://www.linkedin.com/in/gokul-patil-0a6a96189"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
+               <a target="_blank" href="https://github.com/gokul-patil0509/Corona-Cases-Prediction-Deployment"><i class="fab fa-github fa-lg contact-icon"></i></a>
+               <a target="_blank" href="https://www.instagram.com/gokul_h_patil/"><i class="fab fa-instagram fa-lg contact-icon"></i></a>
+               <a target="_blank" href="https://twitter.com/imgokulpatil"><i class="fab fa-twitter fa-lg contact-icon"></i></a>
+         </div>
+         <div class='description'>
+    		  <p>A Machine Learning Web App, Built with Django, Deployed using AWS.</p>
+    	 </div>
+           <p class='footer-description'>Made with ❤️ by Gokul Patil.</p>
+      </div>
+    </body>
+</html>
