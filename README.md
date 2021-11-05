@@ -17,40 +17,39 @@ Link: _https://github.com/gokul-patil0509/Data-Science-Projects/tree/main/Corona
 
 _**----- HOME PAGE-1 -----**_<br />
 
-![Heroku-Error](readme_resources/Home_Page_1.png)
+![Heroku-Error](readme_resources/Home Page.gif)
 
-_**----- HOME PAGE-2 -----**_<br />
+_**----- COUNTRIES -----**_<br />
+• Predict the covid-19 cases in upcoming day for countries.
+• Confiremed cases.
+• Active cases.
+• Recovered cases.
+• Deaths cases.
 
-![Heroku-Error](readme_resources/Home_Page_2.png)
+![Heroku-Error](readme_resources/Country.gif)
 
-_**----- FOR COUNTRIES -----**_<br />
-• Home Page For Countries
+_**----- STATE -----**_<br />
+• Predict the covid-19 cases in upcoming day for state.
+• Active cases.
+• Recovered cases.
+• Deaths cases.
 
-![Heroku-Error](readme_resources/Countries_home.png)
+![Heroku-Error](readme_resources/State.gif)
 
-• Results Page For Countries
+_**----- DISTRICT -----**_<br />
+• Predict the covid-19 cases in upcoming day for district.
+• Active cases.
+• Recovered cases.
+• Deaths cases.
 
-![Heroku-Error](readme_resources/Countries_results.png)
+![Heroku-Error](readme_resources/District.gif)
 
-_**----- FOR STATE -----**_<br />
-• Home Page For State
 
-![Heroku-Error](readme_resources/State_home.png)
+_**----- TEST CORONA VIRUS -----**_<br />
+• Predict whether a patient is infected with the corona virus based on the symptoms.
+• Safe.
+• Symptoms of corona virus.
+• Infected with corona virus.
 
-• Results Page For State
-
-![Heroku-Error](readme_resources/State_results.png)
-
-_**----- FOR DISTRICT -----**_<br />
-• Home Page For District
-
-![Heroku-Error](readme_resources/District_home.png)
-
-• Results Page For District
-
-![Heroku-Error](readme_resources/District_results.png)
-
-_**----- FOR TEST CORONA VIRUS -----**_<br />
-
-![GIF](readme_resources/Test_cv.gif)
+![GIF](readme_resources/Corona Prediction.gif)
  
