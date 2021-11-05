@@ -15,7 +15,7 @@ Link: _https://github.com/gokul-patil0509/Data-Science-Projects/tree/main/Corona
 
 • A glimpse of the web app:
 
-_**1]HOME PAGE-1**_<br />
+_**1] HOME PAGE-1**_<br />
 • Novel CoronaVirus Predictor Web Application.
 
 ![GIF](readme_resources/Home_Page.gif)
