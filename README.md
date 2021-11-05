@@ -20,7 +20,7 @@ _**----- HOME PAGE-1 -----**_<br />
 
 ![GIF](readme_resources/Home_Page.gif)
 
-_**----- COUNTRIES -----**_<br />
+_**1]----- COUNTRIES -----**_<br />
 • Predict the covid-19 cases in upcoming day for countries.
 
 • Confiremed cases.
@@ -33,7 +33,7 @@ _**----- COUNTRIES -----**_<br />
 
 ![GIF](readme_resources/Country.gif)
 
-_**----- STATE -----**_<br />
+_**2]----- STATE -----**_<br />
 • Predict the covid-19 cases in upcoming day for state.
 
 • Active cases.
@@ -44,7 +44,7 @@ _**----- STATE -----**_<br />
 
 ![GIF](readme_resources/State.gif)
 
-_**----- DISTRICT -----**_<br />
+_**3]----- DISTRICT -----**_<br />
 • Predict the covid-19 cases in upcoming day for district.
 
 • Active cases.
@@ -56,7 +56,7 @@ _**----- DISTRICT -----**_<br />
 ![GIF](readme_resources/District.gif)
 
 
-_**----- TEST CORONA VIRUS -----**_<br />
+_**4]----- TEST CORONA VIRUS -----**_<br />
 • Predict whether a patient is infected with the corona virus based on the symptoms.
 
 • Safe.
