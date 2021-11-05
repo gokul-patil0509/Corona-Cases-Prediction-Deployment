@@ -17,7 +17,7 @@ Link: _https://github.com/gokul-patil0509/Data-Science-Projects/tree/main/Corona
 
 _**----- HOME PAGE-1 -----**_<br />
 
-![Heroku-Error](readme_resources/Home Page.gif)
+![GIF](readme_resources/Home Page.gif)
 
 _**----- COUNTRIES -----**_<br />
 • Predict the covid-19 cases in upcoming day for countries.
@@ -26,27 +26,30 @@ _**----- COUNTRIES -----**_<br />
 • Recovered cases.
 • Deaths cases.
 
-![Heroku-Error](readme_resources/Country.gif)
+![GIF](readme_resources/Country.gif)
 
 _**----- STATE -----**_<br />
 • Predict the covid-19 cases in upcoming day for state.
+
 • Active cases.
 • Recovered cases.
 • Deaths cases.
 
-![Heroku-Error](readme_resources/State.gif)
+![GIF](readme_resources/State.gif)
 
 _**----- DISTRICT -----**_<br />
 • Predict the covid-19 cases in upcoming day for district.
+
 • Active cases.
 • Recovered cases.
 • Deaths cases.
 
-![Heroku-Error](readme_resources/District.gif)
+![GIF](readme_resources/District.gif)
 
 
 _**----- TEST CORONA VIRUS -----**_<br />
 • Predict whether a patient is infected with the corona virus based on the symptoms.
+
 • Safe.
 • Symptoms of corona virus.
 • Infected with corona virus.
