@@ -17,13 +17,17 @@ Link: _https://github.com/gokul-patil0509/Data-Science-Projects/tree/main/Corona
 
 _**----- HOME PAGE-1 -----**_<br />
 
-![GIF](readme_resources/Home Page.gif)
+![GIF](readme_resources/Home_Page.gif)
 
 _**----- COUNTRIES -----**_<br />
 • Predict the covid-19 cases in upcoming day for countries.
+
 • Confiremed cases.
+
 • Active cases.
+
 • Recovered cases.
+
 • Deaths cases.
 
 ![GIF](readme_resources/Country.gif)
@@ -54,5 +58,5 @@ _**----- TEST CORONA VIRUS -----**_<br />
 • Symptoms of corona virus.
 • Infected with corona virus.
 
-![GIF](readme_resources/Corona Prediction.gif)
+![GIF](readme_resources/Corona_Prediction.gif)
  
