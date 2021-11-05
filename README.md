@@ -1,4 +1,4 @@
-# Corona-Cases-Prediction-Deployment
+# Prediction Base Analysis of Covid-19 By Using Machine Learning - Deployment
 
 ![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg) ![scikit-learnn](https://img.shields.io/badge/Library-Scikit_Learn-orange.svg) ![pandas](https://img.shields.io/badge/Library-Pandas-yellow.svg) ![matplotlib](https://img.shields.io/badge/Library-Matplotlib-orange.svg) ![Framework](https://img.shields.io/badge/Framework-Django-pink) ![Frontend](https://img.shields.io/badge/Frontend-HTML/CSS/JS-green)
 
