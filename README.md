@@ -16,6 +16,7 @@ Link: _https://github.com/gokul-patil0509/Data-Science-Projects/tree/main/Corona
 • A glimpse of the web app:
 
 _**----- HOME PAGE-1 -----**_<br />
+• Novel CoronaVirus Predictor Web Application.
 
 ![GIF](readme_resources/Home_Page.gif)
 
@@ -36,7 +37,9 @@ _**----- STATE -----**_<br />
 • Predict the covid-19 cases in upcoming day for state.
 
 • Active cases.
+
 • Recovered cases.
+
 • Deaths cases.
 
 ![GIF](readme_resources/State.gif)
@@ -45,7 +48,9 @@ _**----- DISTRICT -----**_<br />
 • Predict the covid-19 cases in upcoming day for district.
 
 • Active cases.
+
 • Recovered cases.
+
 • Deaths cases.
 
 ![GIF](readme_resources/District.gif)
@@ -55,7 +60,9 @@ _**----- TEST CORONA VIRUS -----**_<br />
 • Predict whether a patient is infected with the corona virus based on the symptoms.
 
 • Safe.
+
 • Symptoms of corona virus.
+
 • Infected with corona virus.
 
 ![GIF](readme_resources/Corona_Prediction.gif)
