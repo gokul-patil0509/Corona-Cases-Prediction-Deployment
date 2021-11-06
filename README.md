@@ -23,7 +23,7 @@ _**1] HOME PAGE :**_<br />
 _**2] COUNTRIES :**_<br />
 • Predict the covid-19 cases in upcoming day for countries.
 
-1. Confiremed cases.
+1. Confirmed cases.
 2. Active cases.
 3. Recovered cases.
 4. Deaths cases.
