@@ -1,4 +1,4 @@
-# Prediction Base Analysis of Covid-19 By Using Machine Learning - Deployment
+# Prediction-Base-Analysis-of-Covid-19-By-Using-Machine-Learning-Deployment
 
 ![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg) ![scikit-learnn](https://img.shields.io/badge/Library-Scikit_Learn-orange.svg) ![pandas](https://img.shields.io/badge/Library-Pandas-yellow.svg) ![matplotlib](https://img.shields.io/badge/Library-Matplotlib-orange.svg) ![Framework](https://img.shields.io/badge/Framework-Django-pink) ![Frontend](https://img.shields.io/badge/Frontend-HTML/CSS/JS-green)
 
@@ -23,35 +23,28 @@ _**1] HOME PAGE :**_<br />
 _**2] COUNTRIES :**_<br />
 • Predict the covid-19 cases in upcoming day for countries.
 
-• Confiremed cases.
-
-• Active cases.
-
-• Recovered cases.
-
-• Deaths cases.
+1. Confiremed cases.
+2. Active cases.
+3. Recovered cases.
+4. Deaths cases.
 
 ![GIF](readme_resources/Country.gif)
 
 _**3] STATE :**_<br />
 • Predict the covid-19 cases in upcoming day for state.
 
-• Active cases.
-
-• Recovered cases.
-
-• Deaths cases.
+1. Active cases.
+2. Recovered cases.
+3. Deaths cases.
 
 ![GIF](readme_resources/State.gif)
 
 _**4] DISTRICT :**_<br />
 • Predict the covid-19 cases in upcoming day for district.
 
-• Active cases.
-
-• Recovered cases.
-
-• Deaths cases.
+1. Active cases.
+2. Recovered cases.
+3. Deaths cases.
 
 ![GIF](readme_resources/District.gif)
 
@@ -59,11 +52,9 @@ _**4] DISTRICT :**_<br />
 _**5] TEST CORONA VIRUS :**_<br />
 • Predict whether a patient is infected with the corona virus based on the symptoms.
 
-• Safe.
-
-• Symptoms of corona virus.
-
-• Infected with corona virus.
+1. Safe.
+2. Symptoms of corona virus.
+3. Infected with corona virus.
 
 ![GIF](readme_resources/Corona_Prediction.gif)
  
